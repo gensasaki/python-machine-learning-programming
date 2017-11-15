@@ -82,4 +82,3 @@ class NotebookFinder(object):
         if key not in self.loaders:
             self.loaders[key] = NotebookLoader(path)
         return self.loaders[key]
-
